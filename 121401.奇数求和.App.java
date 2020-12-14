@@ -4,12 +4,12 @@ package pac;
 public class App {
 /*
     奇数求和，求下列算式的值:
-            1+3+5+7+....+2147483647=?
+            1+3+5+7+....+999=?
 */
     public static void main(String[] args) {
         int i=1;
         int sum=0;
-        while(i<=2147483647){
+        while(i<=999){
 //            System.out.println(i);
 //            System.out.println(i%2);
             if(i%2==1){
