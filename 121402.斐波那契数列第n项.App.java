@@ -3,7 +3,7 @@ package pac;
 import java.util.Scanner;
 
 public class App2 {
-	//斐波那契数列第n项
+	//用户每次输入一个int型数字的项数n，都可以输出斐波那契数列的第n项的值。本程序取值区间：(1<=n<=40)。
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
 		while(true) {			
